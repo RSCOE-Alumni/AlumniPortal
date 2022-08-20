@@ -65,7 +65,8 @@ const HomePage = () => {
         },
       };
       const response = await fetch(
-        "http://localhost:4000/users/me",
+        // "http://localhost:4000/users/me",
+        `/users/me`,
         requestOptions
       );
       if (!response.ok) {
