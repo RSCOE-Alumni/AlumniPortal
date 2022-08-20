@@ -1,16 +1,13 @@
-import React, { useContext, useEffect, useState } from "react";
+import React from "react";
 
 import "./CarouselComponent.css";
 
 import { CarouselProvider, Slider, Slide } from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
-import userContext from "../../../context/userContext";
-import { css } from "@emotion/react";
-import { ClipLoader } from "react-spinners";
 
-const APIkey = "AIzaSyCW62Nn00V6RCkSvLJ0_i0zSg097Xj30hQ";
-const channelId = "UC4Pc9V7-QjsJZKkUS8I0iqw";
-const result = "100";
+// const APIkey = "AIzaSyCW62Nn00V6RCkSvLJ0_i0zSg097Xj30hQ";
+// const channelId = "UC4Pc9V7-QjsJZKkUS8I0iqw";
+// const result = "100";
 
 // const finalUrl = `https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=${channelId}&maxResults=${result}&order=date&key=${API}`;
 

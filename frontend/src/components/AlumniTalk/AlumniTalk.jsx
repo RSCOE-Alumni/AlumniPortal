@@ -84,6 +84,7 @@ const AlumniTalk = () => {
       getYoutubeData();
     }
     setData();
+    // eslint-disable-next-line
   }, []);
 
   return (

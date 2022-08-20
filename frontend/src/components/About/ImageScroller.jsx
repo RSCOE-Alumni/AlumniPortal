@@ -14,8 +14,8 @@ export default function ImageScroller() {
       nextImg();
     }, 5000);
     return () => clearInterval(interval);
+    // eslint-disable-next-line
   }, []);
-
 
   let i = 0,
     sliderPos = 0;
@@ -58,7 +58,7 @@ export default function ImageScroller() {
     try {
       // var sliderImg = document.getElementById('sliderImg');
       // var sliderImgSmall = document.getElementById('sliderImgSmall');
-      let sliderImgs = document.getElementsByClassName("sliderImgs");
+
       let imgSliderContainer = document.getElementById("imgSliderContainer");
       if (i === sliderImgSrc.length - 1) {
         i = 0;
@@ -70,8 +70,7 @@ export default function ImageScroller() {
         sliderPos = sliderPos - 80;
         imgSliderContainer.style.left = sliderPos.toString() + "vw";
       }
-  
-    } catch (err) { }
+    } catch (err) {}
   }
   function prevImg() {
     try {
@@ -87,7 +86,6 @@ export default function ImageScroller() {
         sliderPos = sliderPos + 80;
         imgSliderContainer.style.left = sliderPos.toString() + "vw";
       }
-  
-    } catch (err) { }
+    } catch (err) {}
   }
 }

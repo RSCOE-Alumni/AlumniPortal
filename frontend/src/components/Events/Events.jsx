@@ -15,7 +15,7 @@ const Events = () => {
       <div className="events-main">
         {eventsApi.map((e) => {
           return (
-            <div className="events">
+            <div className="events" key={e.eventName}>
               <h3>{e.eventName}</h3>
               {/* <h5>
                 <span>
@@ -62,7 +62,7 @@ const Events = () => {
                       </div> */}
                       <div className="event-description">
                         {/* <img src="images/Events.jpg" alt="eventImg" /> */}
-                        <img src={e.eventimage} />
+                        <img src={e.eventimage} alt="" />
                         <div className="event-description-p">
                           <p>{e.eventDescription}</p>
                         </div>
