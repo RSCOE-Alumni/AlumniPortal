@@ -18,6 +18,17 @@ app.use(express.static(path.join(__dirname, "/frontend/build")));
 
 // console.log(__dirname);
 
+app.get("/*", function (req, res) {
+  res.sendFile(
+    path.join(__dirname, "/frontend/public/index.html"),
+    function (err) {
+      if (err) {
+        res.status(500).send(err);
+      }
+    }
+  );
+});
+
 app.use(userRouter);
 app.use(admin);
 app.use(feedRouter);

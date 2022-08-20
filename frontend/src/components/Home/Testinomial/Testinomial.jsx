@@ -8,7 +8,7 @@ const Testinomial = () => {
         <div className="message">
           <img
             // src="https://png.pngtree.com/png-vector/20190710/ourmid/pngtree-user-vector-avatar-png-image_1541962.jpg"
-            src="images/principalImg.jpeg"
+            src="Images/PrincipalIMG.jpeg"
             alt="avatar"
           />
           <p>
