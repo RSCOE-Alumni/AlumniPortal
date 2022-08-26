@@ -18,6 +18,10 @@ app.use(express.static(path.join(__dirname, "/frontend/build")));
 
 // console.log(__dirname);
 
+app.use(userRouter);
+app.use(admin);
+app.use(feedRouter);
+
 app.get("/*", function (req, res) {
   res.sendFile(
     path.join(__dirname, "/frontend/build/index.html"),
@@ -28,10 +32,6 @@ app.get("/*", function (req, res) {
     }
   );
 });
-
-app.use(userRouter);
-app.use(admin);
-app.use(feedRouter);
 
 app.listen(port, () => {
   console.log(`Server is up on port ${port}`);

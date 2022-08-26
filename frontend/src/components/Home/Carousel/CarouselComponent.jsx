@@ -55,7 +55,7 @@ const CarouselComponent = () => {
           <Slide index={0}>
             {" "}
             <img
-              src="Images/CollegeImg.jpeg"
+              src="Images/CollegeImg.jpg"
               alt="Img"
               style={{ width: "100%" }}
             />

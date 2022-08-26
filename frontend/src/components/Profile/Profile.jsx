@@ -126,7 +126,8 @@ const Profile = () => {
         },
       };
       const response = await fetch(
-        "http://localhost:4000/users/me",
+        // "http://localhost:4000/users/me",
+        `/users/me`,
         requestOptions
       );
       if (!response.ok) {
@@ -212,7 +213,8 @@ const Profile = () => {
         body: JSON.stringify(updatedData),
       };
       const response = await fetch(
-        "http://localhost:4000/users/me",
+        // "http://localhost:4000/users/me",
+        `/users/me`,
         requestOptions
       );
       const data = await response.json();
@@ -267,7 +269,8 @@ const Profile = () => {
         // body: JSON.stringify(updatedData),
       };
       const response = await fetch(
-        "http://localhost:4000/users/me/myPost",
+        // "http://localhost:4000/users/me/myPost",
+        `/users/me/myPost`,
         requestOptions
       );
       const data = await response.json();
@@ -375,7 +378,8 @@ const Profile = () => {
         body: formData,
       };
       const response = await fetch(
-        "http://localhost:4000/users/me/avatar",
+        // "http://localhost:4000/users/me/avatar",
+        `/users/me/avatar`,
         requestOptions
       );
       if (!response.ok) {
@@ -413,9 +417,11 @@ const Profile = () => {
         },
       };
       const response = await fetch(
-        "http://localhost:4000/users/me/avatar",
+        // "http://localhost:4000/users/me/avatar",
+        `/users/me/avatar`,
         requestOptions
       );
+      // console.log(response);
       if (!response.ok) {
         const error = new Error(response.error);
         throw error;
@@ -453,7 +459,8 @@ const Profile = () => {
         },
       };
       const response = await fetch(
-        "http://localhost:4000/users/me/avatar",
+        // "http://localhost:4000/users/me/avatar",
+        `/users/me/avatar`,
         requestOptions
       );
       if (!response.ok) {
@@ -491,7 +498,8 @@ const Profile = () => {
         },
       };
       const response = await fetch(
-        `http://localhost:4000/users/me/post/${id}`,
+        // `http://localhost:4000/users/me/post/${id}`,
+        `/users/me/post/${id}`,
         requestOptions
       );
       if (!response.ok) {

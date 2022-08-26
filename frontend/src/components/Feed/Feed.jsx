@@ -392,7 +392,7 @@ const Feed = () => {
                         style={{ cursor: "pointer" }}
                       />
                     ) : (
-                      <img src="images/avatar.jpg" alt="" />
+                      <img src="Images/avatar.jpg" alt="" />
                     )}
 
                     <div className="who-posting-info">
