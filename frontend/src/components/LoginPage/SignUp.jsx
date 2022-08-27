@@ -153,7 +153,7 @@ const SignUp = () => {
       {visible === false ? (
         <div className="login-main">
           <div className="login-img">
-            <img src="images/sign-in2.png" alt="loginImg" />
+            <img src="Images/sign-in2.png" alt="loginImg" />
             <div className="login-img-text">
               <svg
                 width="26"

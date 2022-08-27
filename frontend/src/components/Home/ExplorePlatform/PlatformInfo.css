@@ -6,7 +6,7 @@
   font-family: "Montserrat";
 }
 
-.explore-heading > h1 {
+.explore-heading h1 {
   font-weight: 700;
   font-size: 2rem;
 }
@@ -24,17 +24,17 @@
 .explore-links {
   margin: 1rem 0 3.5rem 0;
 }
-.explore-links > a {
+.explore-links a {
   text-decoration: none;
   color: #02023d;
   cursor: pointer;
 }
 
-.explore-links > a > h3 {
+.explore-links a h3 {
   font-size: 1.7rem;
   font-weight: 500;
 }
-.explore-links > a > p {
+.explore-links a p {
   font-weight: 300;
   font-size: 1rem;
 }
