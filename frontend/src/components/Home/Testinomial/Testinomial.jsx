@@ -63,7 +63,7 @@ const Testinomial = () => {
           </p>
         </div>
 
-        <h1>Dean SP&IR and Joint Secretary- alumni relations</h1>
+        {/* <h1>Dean SP&IR and Joint Secretary- alumni relations</h1>
         <div className="message">
           <img
             // src="https://png.pngtree.com/png-vector/20190710/ourmid/pngtree-user-vector-avatar-png-image_1541962.jpg"
@@ -105,7 +105,7 @@ const Testinomial = () => {
             talent of our students and induct them into their esteemed
             organizations."
           </p>
-        </div>
+        </div> */}
       </div>
     </>
   );
