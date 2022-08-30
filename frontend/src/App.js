@@ -21,71 +21,71 @@ import About from "./components/About/About";
 import ForgetPassword from "./components/ForgetPassword/ForgetPassword";
 
 function App() {
-	return (
-		<>
-			<UserState>
-				<Router>
-					<div>
-						<Navbar />
+  return (
+    <>
+      <UserState>
+        <Router>
+          <div>
+            <Navbar />
 
-						<Switch>
-							<Route path="/signUp">
-								{" "}
-								<SignUp />
-							</Route>
-							<Route path="/signin">
-								{" "}
-								<SignIn />{" "}
-							</Route>
-							<Route path="/alumni_talk">
+            <Switch>
+              <Route path="/signUp">
+                {" "}
+                <SignUp />
+              </Route>
+              <Route path="/signin">
+                {" "}
+                <SignIn />{" "}
+              </Route>
+              {/* <Route path="/alumni_talk">
 								<AlumniTalk />
-							</Route>
-							<Route path="/find_alumni">
-								<FindAlumni />
-								<Footer />
-							</Route>
-							<Route path="/events">
-								<Events />
-								<Footer />
-							</Route>
-							{/* <Route path="/adminLogin">
+							</Route> */}
+              <Route path="/find_alumni">
+                <FindAlumni />
+                <Footer />
+              </Route>
+              <Route path="/events">
+                <Events />
+                <Footer />
+              </Route>
+              {/* <Route path="/adminLogin">
 								<AdminLogin />
 							</Route> */}
-							<Route path="/about">
-								<About />
-								<Footer />
-							</Route>
-							<Route path="/about">
-								<Intro />
-								<ImageScroller />
-								<Cards />
-								<Footer />
-							</Route>
-							<Route path="/feed">
-								<Feed />
-								<Footer />
-							</Route>
-							<Route path="/profilePage">
-								<Profile />
-								<Footer />
-							</Route>
-							<Route path="/OnClickProfile">
-								<OnClickProfile />
-							</Route>
-							<Route path="/forgetPassword">
-								<ForgetPassword />
-							</Route>
-							<Route path="/">
-								<HomePage />
-								<Footer />
-							</Route>
-						</Switch>
-						<BottomBar />
-					</div>
-				</Router>
-			</UserState>
-		</>
-	);
+              <Route path="/about">
+                <About />
+                <Footer />
+              </Route>
+              <Route path="/about">
+                <Intro />
+                <ImageScroller />
+                <Cards />
+                <Footer />
+              </Route>
+              <Route path="/feed">
+                <Feed />
+                <Footer />
+              </Route>
+              <Route path="/profilePage">
+                <Profile />
+                <Footer />
+              </Route>
+              <Route path="/OnClickProfile">
+                <OnClickProfile />
+              </Route>
+              <Route path="/forgetPassword">
+                <ForgetPassword />
+              </Route>
+              <Route path="/">
+                <HomePage />
+                <Footer />
+              </Route>
+            </Switch>
+            <BottomBar />
+          </div>
+        </Router>
+      </UserState>
+    </>
+  );
 }
 
 export default App;

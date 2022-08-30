@@ -13,8 +13,8 @@ const Testinomial = () => {
           />
           <p>
             Dear Friends,
-            <br /> <br /> It is with immense pride, that I introduce you to an
-            entirely new approach of learning in our college. An approach, where
+            <br /> It is with immense pride, that I introduce you to an entirely
+            new approach of learning in our college. An approach, where
             traditional methods of learning go hand in hand with modern learning
             techniques, keeping with the current trends and technology. We
             facilitate our students to excel academically and to develop their
@@ -60,6 +60,50 @@ const Testinomial = () => {
             the best out of every student - leading to a ‘Complete Professional’
             ready to conquer the globalizing world at the end of their stay in
             the institute.
+          </p>
+        </div>
+
+        <h1>Dean SP&IR and Joint Secretary- alumni relations</h1>
+        <div className="message">
+          <img
+            // src="https://png.pngtree.com/png-vector/20190710/ourmid/pngtree-user-vector-avatar-png-image_1541962.jpg"
+            src="Images/TPO.jpeg"
+            alt="avatar"
+          />
+          <p>
+            Dear Friends, From The Dean of SI&IR's Desk,
+            <br /> "I would like to introduce our campus, Rajarshi Shahu College
+            of Engineering (RSCOE), an autonomous institute which is in the band
+            250 to 300 of MHRD-NIRF 2022 and is also accredited by NAAC and NBA.
+            Our college is the flagship institute of JSPM and TSSM Group of
+            Institutes, Pune, Maharashtra. RSCOE is now also known as TEDxJSPM
+            RSCOE. Being an autonomous institute, the companies like Veritas,
+            TCS, KPIT & Persistent Systems, Bentley Institute, IIT Ropar, and
+            Builders Association of India contributed to the curriculum
+            integration, giving an opportunity to students from various social
+            and economic backgrounds to be part of excelling in higher
+            education. The scope of work of the Jspm’s RSCOE SP&IR Cell is to
+            help students identify their career aspects and provide
+            prerequisites for the present-day competitive job market.It extends
+            from organising workshops to providing internships to students in
+            various organizations, so it prepares students for the final
+            placements, gives them a sense of responsibility, and provides an
+            opportunity to experience a workplace environment. RSCOE promotes
+            interdisciplinary skills, a coding environment, and foreign
+            languages like English, Japanese, French, and German, right from the
+            first year. The branches that are available for hiring include
+            Computer, IT, ENTC, Mechanical, Civil, Electrical, MCA, MBA, and
+            Polytechnic Diploma. Some of our recruiters are Amazon, Veritas,
+            Neutanix, KPIT, Bentley Institute, Builders Association of India,
+            Persistent, Accenture, TCS, Capgemini, Zensar Technologies, BOSCH,
+            Continental Automotive, Tech Mahindra, and many others. The number
+            of offers for the previous year for RSCOE was 1030+ and unique
+            offers were 640+ for an intake of 720. 3000+ offers were achieved at
+            JSPM and TSSM group level. It is a matter of gratification for the
+            institute to take this opportunity to invite potential companies to
+            experience and evaluate the intellectual competency, skills, and
+            talent of our students and induct them into their esteemed
+            organizations."
           </p>
         </div>
       </div>

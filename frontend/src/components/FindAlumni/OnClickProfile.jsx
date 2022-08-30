@@ -21,7 +21,7 @@ const OnClickProfile = () => {
             <div className="img-basic-info">
               <div className="img-basic-info-img">
                 {profileData.avatar === undefined ? (
-                  <img src="images/avatar.jpg" alt="Avatar" />
+                  <img src="Images/avatar.jpg" alt="Avatar" />
                 ) : (
                   <img
                     src={`data:image/jpeg;base64,${profileData.avatar}`}

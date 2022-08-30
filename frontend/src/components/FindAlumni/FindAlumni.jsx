@@ -566,7 +566,7 @@ const FindAlumni = () => {
                         src={
                           alumni.avatar
                             ? `data:image/jpeg;base64,${alumni.avatar}`
-                            : `images/avatar.jpg`
+                            : `Images/avatar.jpg`
                         }
                         alt="avatar"
                       />

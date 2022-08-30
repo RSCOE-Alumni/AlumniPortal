@@ -1017,7 +1017,7 @@ const Profile = () => {
             <div className="img-basic-info">
               <div className="img-basic-info-img">
                 {photo === "" ? (
-                  <img src="images/avatar.jpg" alt="Avatar" />
+                  <img src="Images/avatar.jpg" alt="Avatar" />
                 ) : (
                   <img src={photo} alt="Avatar" />
                 )}
@@ -1260,7 +1260,7 @@ const Profile = () => {
                                 alt=""
                               />
                             ) : (
-                              <img src="images/avatar.jpg" alt="" />
+                              <img src="Images/avatar.jpg" alt="" />
                             )}
 
                             <div className="who-posting-info">
