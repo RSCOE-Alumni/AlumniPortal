@@ -79,14 +79,14 @@ export default function BottomBar() {
         <img src={LogoFeed} alt="feedIcon" />
         <span>FEED</span>
       </Link>
-      {/* <Link
+      <Link
         to="/alumni_talk"
         className="BottomBarLinks"
         onClick={changeColor(["4", "1"])}
       >
         <img src={LogoAlumniTalk} alt="talkIcon" />
         <span>ALUMNI TALK</span>
-      </Link> */}
+      </Link>
       <Link
         to="/events"
         className="BottomBarLinks"

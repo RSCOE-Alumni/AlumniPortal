@@ -250,7 +250,7 @@ export default function Navbar() {
                 <img src={LogoFeed} alt="feedIcon" />
                 <span>FEED</span>
               </Link>
-              {/* <Link
+              <Link
                 to="/alumni_talk"
                 id="Navlink4"
                 className="LeftNavLinks"
@@ -271,7 +271,7 @@ export default function Navbar() {
               >
                 <img src={LogoAlumniTalk} alt="talkIcon" />
                 <span>ALUMNI TALK</span>
-              </Link> */}
+              </Link>
               <Link
                 to="/events"
                 id="Navlink5"
@@ -362,7 +362,7 @@ export default function Navbar() {
                 <img src={LogoFeed} alt="feedIcon" />
                 <span>FEED</span>
               </Link>
-              {/* <Link
+              <Link
                 to="/alumni_talk"
                 id="Navlink4"
                 className="LeftNavLinks"
@@ -370,7 +370,7 @@ export default function Navbar() {
               >
                 <img src={LogoAlumniTalk} alt="talkIcon" />
                 <span>ALUMNI TALK</span>
-              </Link> */}
+              </Link>
               <Link
                 to="/events"
                 id="Navlink5"

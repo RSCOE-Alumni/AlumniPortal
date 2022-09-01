@@ -37,9 +37,9 @@ function App() {
                 {" "}
                 <SignIn />{" "}
               </Route>
-              {/* <Route path="/alumni_talk">
-								<AlumniTalk />
-							</Route> */}
+              <Route path="/alumni_talk">
+                <AlumniTalk />
+              </Route>
               <Route path="/find_alumni">
                 <FindAlumni />
                 <Footer />
